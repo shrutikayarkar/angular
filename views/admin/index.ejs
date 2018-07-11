@@ -1,10 +1,10 @@
-<div class="container">
+<div class="container" ng-controller="myctrl">
 <div class="row">
 <div class="col-sm-8 col-sm-offset-2">
 	<div class="panel panel-primary" >
 		<div class="panel-heading"><h2>Admin Panel</h2></div>
 			<div class="panel-body" >
-				<form class="form-horizontal" method="post" action="/login">
+				
 	<div class="form-group">
 	
 		<div class="col-sm-4">
@@ -32,11 +32,11 @@
 		</div>
 		<div class="panel-footer" >
 
-				<button class="btn btn-primary  btn-block" type="submit" > Log in</button>
+				<button class="btn btn-primary  btn-block" type="button" on-click="admin_log()"> Log in</button>
 	</div>
 
 			
-		</form>
+		
 
 	</div>
 			</div>
